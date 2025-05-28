@@ -592,7 +592,7 @@ body {
 }
 
 .testimonial-section {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding: 5rem 4rem;
   display: flex;
   flex-direction: column;
@@ -620,6 +620,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 4rem 0em;
+  position: relative;
 }
 
 .client-info {
@@ -628,4 +629,103 @@ body {
 }
 .client-name {
   font-size: 1.2rem;
+}
+
+.client-img {
+  width: 80px;
+  height: 75px;
+  border-radius: 50%;
+  position: absolute;
+  translate: (50%, 50%);
+  top: -30px;
+}
+
+.history-section {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #2f004f;
+  position: relative;
+  margin-bottom: 10rem;
+}
+.history-image img {
+  width: 700px;
+  height: auto;
+  /* position: absolute; */
+}
+
+.history-section .first-side {
+  display: flex;
+  flex-direction: row;
+}
+
+.history-content {
+  /* border: 2px solid yellow; */
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.history-title {
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+  color: #7eff62;
+}
+
+.history-subtitle {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.history-description {
+  font-size: 1.1rem;
+  margin-top: 2rem;
+  padding-right: 1rem;
+  line-height: 2;
+  color: #7eff62;
+}
+
+.history-stats {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid red; */
+  background-color: #7eff62;
+  position: absolute;
+  bottom: -100px;
+  left: 100px;
+}
+.stats-icon {
+  width: 100px;
+  height: 100px;
+}
+
+.stats-number {
+  font-size: 2.5rem;
+  color: #2f004f;
+}
+
+@keyframes floatBounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.history-stats {
+  animation: floatBounce 4s ease-in-out infinite !important;
+}
+
+.stats-label {
+  color: #2f004f;
 }
