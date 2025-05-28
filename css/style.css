@@ -729,3 +729,27 @@ body {
 .stats-label {
   color: #2f004f;
 }
+
+.latest-new {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+}
+
+.latest-new-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.latest-new-section img {
+  width: 400px;
+  height: 300px;
+}
+
+.news-topic {
+  width: 350px;
+  height: 100px;
+  background-color: #2f004f;
+}
