@@ -8,3 +8,22 @@
   border: 2px solid red;
   padding: 2rem 4rem;
 }
+
+.services {
+  border: 2px solid palegoldenrod;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(100px, 1fr));
+  width: 50%;
+}
+
+.icon-box {
+  border: 2px solid #ccc;
+  background-color: red;
+  display: flex;
+  gap: 2rem;
+}
+
+.check-icon {
+  width: 20px;
+  height: 20px;
+}
