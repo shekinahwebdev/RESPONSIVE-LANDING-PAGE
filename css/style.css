@@ -950,7 +950,7 @@ body {
 .social-icon {
   width: 30px;
   height: 30px;
-  background-color: #a062ff; /* Dark background for icons */
+  background-color: #a062ff;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -963,7 +963,7 @@ body {
 }
 
 .social-icon:hover {
-  background-color: #2f004f; /* Orange on hover */
+  background-color: #2f004f;
 }
 
 .footer-bottom {
@@ -1002,11 +1002,11 @@ body {
   .email-input,
   .get-quote-button {
     width: 100%;
-    max-width: 350px; /* Adjust for smaller screens */
+    max-width: 350px;
   }
 
   .locations-grid {
-    grid-template-columns: 1fr; /* Stack cards on small screens */
+    grid-template-columns: 1fr;
   }
 
   .main-footer .container {

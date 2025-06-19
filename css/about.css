@@ -118,3 +118,52 @@
   transform: scale(1.05) translateY(-8px);
   cursor: pointer;
 }
+
+.results {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 2rem;
+  background-image: url("/assets/images/background-tech.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.result_declaration {
+  margin-top: 3rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.result_declaration div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+  width: 300px;
+  background-color: transparent;
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.result_number {
+  font-size: 3rem;
+}
+
+.result_experience,
+.result_expert,
+.result_branches,
+.result_project_completion {
+  font-size: 1.2rem;
+}
+
+.result_declaration div:hover {
+  color: #840ed3b7;
+  cursor: pointer;
+  background-color: #7fff62a5 !important;
+  transform: translateY(-30px);
+}
